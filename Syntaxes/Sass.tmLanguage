@@ -24,8 +24,10 @@
 			<string>keyword.control.untitled</string>
 		</dict>
 		<dict>
-			<key>match</key>
+			<key>begin</key>
 			<string>@(extend|import|mixin|include|charset|import|media|page|font-face|namespace|for|function|return)\b</string>
+			<key>end</key>
+			<string>$\n?</string>
 			<key>name</key>
 			<string>keyword.control.at-rule.sass</string>
 		</dict>
